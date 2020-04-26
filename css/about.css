@@ -1,0 +1,35 @@
+.cont .row .col .p1{
+    font-size:35px;
+    font-family:sans-serif;
+    margin-left:39%;
+
+}
+.cont .row .f p{
+    font-family:sans-serif;
+    font-size:25px;
+    text-align:justify;
+}
+
+.cont .row .s img{
+    border-radius:15px;
+}
+.cont .row .k p{
+    text-align:justify;
+    font-size:25px;
+    font-family:sans-serif;
+}
+h3{
+    text-align:center;
+
+}
+.container .row .f,.s{
+    margin-bottom:10%;
+}
+.container .row .k{
+    padding:3%;
+   
+}
+.container .row .k:hover{
+    padding:3%;
+    border-top:7px solid grey;
+    border-bottom:7px solid grey;

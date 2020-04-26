@@ -1,0 +1,75 @@
+
+
+}
+.logo1{
+  position:absolute;
+  padding:4%
+
+}
+.logo2{
+  position:absolute;
+  padding-left:82%;
+  padding-top:3%;
+}
+
+.no1{
+
+  float:left;
+ width:10%;
+ height:10%;
+ margin-top:4%;
+   }
+.cont{
+  margin-top:90px;
+}
+h1{
+  font-family:sans-serif;
+  letter-spacing:1px;
+}
+
+.footer{
+  background-color: grey;
+  height:70px;
+}
+
+.cont{
+  margin-top:100px;
+  padding:30px;
+
+}
+.cont .row h3{
+  margin:10px;
+  padding:30px;
+  text-align: center;
+  font-family:sans-serif;
+  font-size:36px;
+  text-shadow: 01px 01px 2px grey;
+}
+
+.cont .row p{
+  margin-top:10px;
+  font-family:arial Verdana, Geneva, Tahoma, sans-serif;
+  padding:20px;
+  text-align:justify;
+  font-size:20px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.cont .row img{
+  MARGIN-TOP:19PX;
+  width:100%;
+  border-radius:20px;
+}
+.cont .row img:hover{
+  transform:scale(1.01);
+  transition:1s all;
+  }
+  .cont .row img{
+    transform: scale(1);
+    transition: 1s ease-out;
+  }
+  .dropdown:hover>.dropdown-menu
+{
+display: block;
+ }

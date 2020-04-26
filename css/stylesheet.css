@@ -1,0 +1,105 @@
+.navbar .navbar-nav .nav-item .na{
+word-spacing: 20px;
+}
+
+}
+.logo1{
+  position:absolute;
+  padding:4%
+
+}
+.logo2{
+  position:absolute;
+  padding-left:82%;
+  padding-top:3%;
+}
+
+.no1{
+
+  float:left;
+ width:10%;
+ height:10%;
+ margin-top:4%;
+   }
+.cont{
+  margin-top:90px;
+}
+h1{
+  font-family:sans-serif;
+  letter-spacing:1px;
+}
+
+.footer{
+  background-color: grey;
+  height:70px;
+}
+
+
+
+
+#tag3
+{
+margin-left:12%;
+}
+
+#description{
+  font-size:20px;
+ 
+      }
+.p1{
+float:left;
+  margin-left:6%;
+  }
+.p2{
+  float:left;
+  margin-left:3%;  
+
+  }
+.p3{
+  float:right;
+ margin-right:3%;
+   }
+.p4{
+   float:right;
+   margin-right:5%;
+   }
+
+.jhImage img:hover{
+transform:scale(1.1);
+transition:1s all;
+}
+.a{
+  transform: scale(1);
+  transition: 1s ease-out;
+}
+.dropdown:hover>.dropdown-menu
+{
+display: block;
+ }
+ .row{
+
+  margin-bottom:20px;
+  cursor:pointer;
+ }
+ .row .card,.row .card4{
+   padding:7px;
+  border:1px 1px 3px #f1f2f6;
+  box-shadow:1px 2px 7px#ced6e0;
+ }
+ 
+ .row .card4 .logo{
+   margin-top:-20px;
+   
+ }
+ 
+ .row .card .logo{
+ padding-bottom:15px;
+ }
+ .row .card:hover,.row .card4:hover{
+   transform:translateY(-10%);
+   transition:0.3s linear ;
+ }
+ body{
+   width:100%;
+ } 
+ 

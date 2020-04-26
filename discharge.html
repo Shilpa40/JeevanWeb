@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/discharge.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>jeevan hospitaL</title> 
+  <script type="text/javascript">
+  function formSubmit(){
+    alert("Thank You for your feedback")
+  }
+  </script> 
+</head>
+<body >
+    <div class="container-fluid hcont">
+        <div class="row rh">
+            <div class="col-sm-3  ac">
+                <img width="90%" src="img/no.png" alt="" class="image-thumbnail ">
+            </div>
+            <div class="col-sm-6 ah">
+               <p class="JH">JEEVAN HOSPITAL</p>
+            </div>
+            <div class="col-sm-3">
+             <img src="img/logo.png" alt="" class="image-thumbnail ad"> 
+            </div>
+        </div>
+    </div> 
+    </div>    
+ <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top Pa ">
+  <a href="#" class="navbar-brand"><span><img src="img/logo.png" alt="" width=60 class="image-thumbnail">Jeevan Hospital</span></a>
+  <button type="button" class="navbar-toggler" data-target="#menu-button" data-toggle="collapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse" id="menu-button">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item "><a class="nav-link na"  href="index.html">Home</a></li>
+    <li class="nav-item dropdown ">
+      <a class="nav-link na" href="#"data-toggle="dropdown" id ="patient-menu">Patient-care/visitor-info
+        <div class="dropdown-menu" aria-labelledby="patient-menu">
+          <a href="Regis&Adm.html" class="dropdown-item">Registration & Admission</a>
+          <div class="dropdown-divider"></div>
+          <a href="stay.html" class="dropdown-item">Hospital Stay</a>
+          <div class="dropdown-divider"></div>
+          <a href="discharge.html" class="dropdown-item">Discharge & Feedback </a>
+        </div>
+      </a>
+    </li> 
+
+    <li class="nav-item dropdown">
+        <a class="nav-link na" href="#"data-toggle="dropdown" id ="phy-menu">Physicians
+          <div class="dropdown-menu" aria-labelledby="phy-menu">
+            <a href="referrals.html" class="dropdown-item">Referrals</a>
+            <div class="dropdown-divider"></div>
+            <a href="fdphysicians.html" class="dropdown-item">Feedback</a>
+          
+          </div>
+        </a>
+      </li> 
+    <li class="nav-item"><a class="nav-link na" href="about.html">About</a></li> 
+  </ul>
+</div>
+</nav>
+
+<div class="container cont ">
+  <div class="row">
+      <div class="col-sm-12 column"> 
+        <h3>Hospital discharge & Feedback</h3>   
+        <p>
+            You may leave the Jeevan Hospital at around 10:00 am on your day of discharge. After treatment is complete, a doctor or the health care team will inform you about any necessary or recommended steps to follow. A discharge report will be sent to your GP. If a stay in a rehabilitation clinic is necessary, our social services will gladly advise you. The Jeevan Hospital also offers care consultation hours.
+        </p>  
+      </div>
+      <div class="col-sm-12 column">  
+          <h3>Your feedback is important to us</h3>   
+          <p>
+            The Jeevan Hospital is committed to high quality standards. If you have any concerns, we kindly ask you to inform the nursing staff or the doctors. We are always looking for ways to improve.
+          </p>
+          <p>For questions regarding invoices please contact our Finance Office. For general feedback or inquiries you can phone us directly on +41 44 255 42 00, contact us via the feedback form below, or send us a letter to discuss any matter.</p>
+          <p>
+              Jeevan Hospital <br>
+              Patient counseling <br>
+              Rämistrasse 100 <br>
+              Postfach 153 <br>
+              8091 hos <br>
+          </p> 
+        </div>  
+
+        <div class="col-sm-12 column f"> 
+          <div class="f1">
+          <p class="f2">
+              Your entries will be transferred in encrypted form.
+          </p>
+           <p class="f3">
+                Fields marked with * are mandatory
+            </p>
+            </div>
+            <div class="form1">
+            <form>
+             <h5>You are or were an</h5>
+              <input type="radio" name="patient" value="inpatient"><span>inpatient</span><br>
+              <input type="radio" name="patient" value="outpatient"><span>outpatient</span><br><br>
+              <label for="">Where?</label><br>
+              <input type="text" name="where" class="field"> <br><br>
+              <label for=""> When ?</label><br>
+              <input type="text" name="when" class="field"><br><br>
+              <label for="">Your Message</label><br>
+              <textarea name="your_message" id="your_message" cols="25" rows="5"></textarea><br><br>
+              <label for="">Would you like us to contact you personally?</label><br>
+              <select name="" id="yes-no">                  
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+              </select>
+              <br><br>
+              <label for="">Title</label>
+              <br>
+              <select name="" id="mr-ms-mrs">                  
+                  <option value="mr">Mr</option>
+                  <option value="ms">Ms</option>
+                  <option value="mrs">Mrs</option>
+              </select>
+              <br><br>
+              <label for="">First Name</label><br>
+              <input type="text" name="first_name" class="field"><br><br>
+              <label for="">Last Name</label><br>
+              <input type="text" name="last_name" class="field"><br><br>
+              <label for="">Telephone/email</label><br>
+              <input type="email" name="email" class="field"><br><br>
+              <input type="submit" class="btn-primary submitButton" onclick="formSubmit()">           
+            </form>
+            </div>
+            
+            
+          </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>  
+
+ <footer class="footer navbar-dark bg-dark">
+  <a href="">  <img src="media/youtube-brands.svg" height="55px" width="65px" style="background-color:white;padding:10px;border-radius:7px;margin-top:8px;margin-left:17%;"alt="">
+   </a>
+   <a href=""> <img src="media/twitter-brands.svg" height="55px" width="65px" style="background-color:white;padding:10px;border-radius:7px;margin-top:8px;margin-left:10%;"alt="">
+    </a>
+    <a href="https://m.facebook.com/?_rdr"> <img src="media/facebook-f-brands.svg" height="55px" width="65px" style="background-color:white;padding:10px;border-radius:7px;margin-top:8px;margin-left:10%;"alt="">
+    </a>
+    <a href="https://github.com/Shilpa40"> <img src="media/github-brands.svg" height="55px" width="65px" style="background-color:white;padding:10px;border-radius:7px;margin-top:8px;margin-left:10%;"alt="">
+    </a>
+   <a href="https://www.linkedin.com/in/shilpa-bains-626217186/"> <img src="media/linkedin-in-brands.svg" height="55px" width="65px" style="background-color:white;padding:10px;border-radius:7px;margin-top:8px;margin-left:10%;"alt="">
+   </a>
+  </footer>
+</body> 
+</html>
+  

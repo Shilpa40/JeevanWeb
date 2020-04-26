@@ -1,0 +1,134 @@
+#logo{
+  margin-left:20%;
+  margin-right:0px;
+   }
+
+.header{
+       display:flex;
+     background-color:#ebebfa;
+    margin-left:0px;
+}
+.no1{
+
+  float:left;
+ width:10%;
+ height:10%;
+ margin-top:4%;
+   }
+
+
+h1{
+    color:#000087;
+    Font-size:35px;
+    text-decoration:underline;
+    font-family:verdana;
+    text-align:center;
+   margin-top:45px;
+ 
+   
+}
+
+#nav ul{
+
+       list-style:none;
+       
+       }
+
+#nav ul li { 
+    
+    background-color: #f5f5f3;
+    width:200px;
+    height: 53px;
+    border:1px solid black;
+    line-height:50px;
+    text-align:center;
+    color:#003da5;
+    font-size:18px;
+    float:left;
+   padding-left:5px;
+   padding-right:10px;
+
+    }
+#nav ul li:hover{
+         background-color:#ccccff;
+                }
+
+#nav ul li ul{
+         margin-left:-45px;
+             }
+
+#nav ul ul
+{
+ display: none;
+}
+
+#nav ul li:hover > ul
+{
+display: block;
+ }
+
+#hpstay{
+   font-size:35px;
+   color:solid black;
+   text-align:center;   
+   text-decoration:underline;  
+   }
+
+#para1{
+     text-align:center;
+     font-size:25px;
+
+   }
+.hp1{
+   float:left;
+    margin-left:5%;
+    }
+.hp2{
+  float:right;
+  width:275px;
+  height:185px;
+  margin-right:5%;
+  
+    }
+.hp3{
+    float:right;
+    width:275px;
+    height:185px;
+    margin-right:5%;
+    }
+
+.hp4{
+   float:right;
+   width:275px;
+   height:185px;
+   margin-right:7%;
+    }
+
+#catering{
+  text-align:center;
+  margin-left:11%;
+  margin-right:10%;
+  margin-top:15%;
+  font-size:30px; 
+    }
+.para2{
+    text-align:center;
+    font-size:25px;
+    }
+
+h2{
+  color:#000087;
+  text-decoration:underline;
+  }
+ul > li{
+  font-size:25px;
+      }
+.food img{
+    float:right;
+    border-radius:10px;
+    width:30%;
+    height:30%;
+    }
+
+
+
